@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,15 @@
     "fs": "0.0.1-security",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.8"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SauravBeginner/EshopBackEnd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SauravBeginner/EshopBackEnd/issues"
+  },
+  "homepage": "https://github.com/SauravBeginner/EshopBackEnd#readme",
+  "description": ""
 }
