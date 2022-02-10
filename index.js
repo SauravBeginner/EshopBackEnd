@@ -4,7 +4,7 @@ const cors = require("cors");
 const expreessFileUpload = require("express-fileupload");
 const mongoose = require("mongoose");
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 const customer_r = require("./router/customer_r");
 const product_r = require("./router/product_r");
